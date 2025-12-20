@@ -95,7 +95,7 @@ This repository contains my **Core Java practice programs**, created to strength
 
 ## 📂 Folder Structure
 
-    core-java-practice/
+core-java-practice/
 ├── I-introduction/
 │   ├── intro-history.md
 │   ├── features.md
@@ -150,11 +150,25 @@ This repository contains my **Core Java practice programs**, created to strength
 │   ├── string-class.md
 │   └── stringbuffer-class.md
 │
-└── VIII-interview-topics/
-    ├── file-handling.md
-    ├── collections-framework.md
-    ├── packages.md
-    └── multithreading.md
+├── VIII-interview-topics/
+│   ├── file-handling.md
+│   ├── collections-framework.md
+│   ├── packages.md
+│   └── multithreading.md
+│
+├── IX-what-i-learned/
+│   ├── introduction.md
+│   ├── java-basics.md
+│   ├── control-flow.md
+│   ├── oop.md
+│   ├── advanced-oop.md
+│   ├── exception-handling.md
+│   ├── string-handling.md
+│   └── interview-topics.md
+│
+└── X-summary/
+    ├── repo-summary.md
+    └── learning-outcomes.md
 
 ## Summary 💖👌
 
