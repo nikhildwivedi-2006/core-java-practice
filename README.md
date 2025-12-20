@@ -12,84 +12,85 @@ This repository contains my **Core Java practice programs**, created to strength
 
 ## 📚 Topics Covered
 
-# 1. Intro & History of Java
-     - Features of Java
-     - What makes Java Platform Independent
-     - Difference between **JDK, JRE & JVM**
-     - Installation & Setup
-     - Java Program Explanation
-     - Program Execution Steps
-     - ByteCode Explanation
+### Java fundamentals
+- Intro & History of Java
+- Features of Java
+- What makes Java Platform Independent
+- Difference between **JDK, JRE & JVM**
+- Installation & Setup
+- Java Program Explanation
+- Program Execution Steps
+- ByteCode Explanation
 
-# 2. **Java Basics**
+### **Java Basics**
 
-    - Data Types
-    - Type Conversion
-    - Type Casting
-    - Operators
-    - Types of Variables in Java
-    - Accept Input Using the Command line
-    - String Class
-    - Wrapper Classes
+- Data Types
+- Type Conversion
+- Type Casting
+- Operators
+- Types of Variables in Java
+- Accept Input Using the Command line
+- String Class
+- Wrapper Classes
 
-# 3. Control Flow Statements
+### Control Flow Statements
 
-    - Conditional Statement (if, if-else, switch)
-    - Accept Input Using **Scanner Class**
-    - Loops in Java (while, do-while, for)
-    - Enhanced For Loop
-    - Arrays (Single-Dimensional)
-    - Double-Dimensional Array
-    - Jagged Array
+- Conditional Statement (if, if-else, switch)
+- Accept Input Using **Scanner Class**
+- Loops in Java (while, do-while, for)
+- Enhanced For Loop
+- Arrays (Single-Dimensional)
+- Double-Dimensional Array
+- Jagged Array
 
-# 4. Object-Oriented Programming (OOPs)
+### Object-Oriented Programming (OOPs)
 
-     - OOP Concepts
-     - Classes and Objects
-     - Object Initialization
-     - Constructors
-     - Method Overloading
-     - Constructor Overloading
-     - Argument Passing in Java
-     - Passing Array Reference
+- OOP Concepts
+- Classes and Objects
+- Object Initialization
+- Constructors
+- Method Overloading
+- Constructor Overloading
+- Argument Passing in Java
+- Passing Array Reference
 
-# 5. Advanced OOP Concepts
+### Advanced OOP Concepts
 
-    - Static Keyword
-    - finalize() method
-    - Introduction to **gc() method** (Garbage Collector)
-    - Introduction to **Object class**
-    - Static methods
-    - Static Blocks
-    - **this** reference
-    - Constructor Chaining
-    - Inheritance
-    - Using the keyword **super**
-    - Method Overriding & Method Overloading
-    - Polymorphism
-    - Abstract Method and Abstract Class
-    - Using the keyword **final**
-    - Intro to final data members
-    - Intro to Interface
+- Static Keyword
+- finalize() method
+- Introduction to **gc() method** (Garbage Collector)
+- Introduction to **Object class**
+- Static methods
+- Static Blocks
+- **this** reference
+- Constructor Chaining
+- Inheritance
+- Using the keyword **super**
+- Method Overriding & Method Overloading
+- Polymorphism
+- Abstract Method and Abstract Class
+- Using the keyword **final**
+- Intro to final data members
+- Intro to Interface
 
-# 6. **Exception Handling**
+### **Exception Handling**
 
-   - Exception Handling Basics
-   - Exception Hierarchy
-   - Using the keyword **throw**
-   - The **finally** Block
+- Exception Handling Basics
+- Exception Hierarchy
+- Using the keyword **throw**
+- The **finally** Block
 
-# 7. String Handling
+### String Handling
 
-   - String Class
-   - StringBuffer Class
+- String Class
+- StringBuffer Class
 
-# 8. Interview-Specific Topics
+### Interview-Specific Topics
 
-   - File Handling
-   - Collections Framework
-   - Packages
-   - Multithreading
+- File Handling
+- Collections Framework
+- Packages
+- Multithreading
 
 ---
 
