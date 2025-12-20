@@ -94,7 +94,7 @@ This repository contains my **Core Java practice programs**, created to strength
 ---
 
 ## 📂 Folder Structure
-
+```
 core-java-practice/
 ├── I-introduction/
 │   ├── intro-history.md
@@ -169,6 +169,8 @@ core-java-practice/
 └── X-summary/
     ├── repo-summary.md
     └── learning-outcomes.md
+
+```
 
 ## Summary 💖👌
 
