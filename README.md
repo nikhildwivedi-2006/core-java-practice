@@ -1,18 +1,23 @@
-# Core Java Practice
+#  Core Java Notes & Practice
 
-This repository contains my **Core Java practice programs**, created to strengthen Java fundamentals and improve my problem-solving (ability) skills.
+This repository contains my **Core Java learning notes and practice documentation** created to build a strong foundation in Java programming, understand core concepts deeply, and prepare for technical interviews.
+
+The main focus of this repository is to maintain structured notes, important concepts, examples, and interview-oriented topics while learning Java.
 
 ---
 
 ## 🎯 Purpose
-- Practice core Java concepts
-- Build strong programming logic
-- Prepare for technical interviews and upgrading for a better logic building and problem solving skills.
+- Strengthen Java fundamentals
+- Understand Object-Oriented Programming concepts deeply
+- Improve logical thinking and problem-solving skills
+- Maintain structured Java revision notes
+- Prepare for Java Backend Development and technical interviews
 
+---
 
 ## 📚 Topics Covered
 
-### Java fundamentals
+### 1. Java fundamentals & Introduction
 - Intro & History of Java
 - Features of Java
 - What makes Java Platform Independent
@@ -22,7 +27,9 @@ This repository contains my **Core Java practice programs**, created to strength
 - Program Execution Steps
 - ByteCode Explanation
 
-### **Java Basics**
+--- 
+
+### 2. Java Basics
 
 - Data Types
 - Type Conversion
@@ -33,7 +40,9 @@ This repository contains my **Core Java practice programs**, created to strength
 - String Class
 - Wrapper Classes
 
-### Control Flow Statements
+---
+
+### 3. Control Flow Statements
 
 - Conditional Statement (if, if-else, switch)
 - Accept Input Using **Scanner Class**
@@ -43,7 +52,9 @@ This repository contains my **Core Java practice programs**, created to strength
 - Double-Dimensional Array
 - Jagged Array
 
-### Object-Oriented Programming (OOPs)
+---
+
+### 4. Object-Oriented Programming (OOPs)
 
 - OOP Concepts
 - Classes and Objects
@@ -54,38 +65,52 @@ This repository contains my **Core Java practice programs**, created to strength
 - Argument Passing in Java
 - Passing Array Reference
 
-### Advanced OOP Concepts
+---
+
+### 5. Advanced OOP Concepts
 
 - Static Keyword
-- finalize() method
-- Introduction to **gc() method** (Garbage Collector)
-- Introduction to **Object class**
-- Static methods
+- Static Variables
+- Static Methods
 - Static Blocks
-- **this** reference
+- this Reference
+- super Keyword
 - Constructor Chaining
 - Inheritance
-- Using the keyword **super**
-- Method Overriding & Method Overloading
+- Method Overriding
 - Polymorphism
-- Abstract Method and Abstract Class
-- Using the keyword **final**
-- Intro to final data members
-- Intro to Interface
+- Abstract Class
+- Abstract Methods
+- Interfaces
+- final Keyword
+- Object Class
+- Garbage Collection Basics
+- finalize() Method
 
-### **Exception Handling**
+---
 
-- Exception Handling Basics
+### 6. Exception Handling
+
+- Introduction to Exception Handling
 - Exception Hierarchy
-- Using the keyword **throw**
-- The **finally** Block
+- try-catch Block
+- throw Keyword
+- throws Keyword
+- finally Block
+- Custom Exception Basics
 
-### String Handling
+---
+
+### 7. String Handling
 
 - String Class
+- String Immutability
 - StringBuffer Class
+- StringBuilder Class
 
-### Interview-Specific Topics
+  ---
+  
+### 8. Interview-Specific Topics
 
 - File Handling
 - Collections Framework
@@ -93,6 +118,89 @@ This repository contains my **Core Java practice programs**, created to strength
 - Multithreading
 
 ---
+
+## 9. Java 8 Features
+
+Java 8 introduced powerful features that improved code readability and supported functional programming.
+
+### Lambda Expression
+
+- Introduction to Lambda Expression
+- Lambda Syntax
+- Lambda with Functional Interface
+
+### Functional Interface
+
+- Introduction to Functional Interface
+- @FunctionalInterface Annotation
+
+### Built-in Functional Interfaces
+
+- Predicate
+- Function
+- Consumer
+- Supplier
+- BiPredicate
+- BiFunction
+- BiConsumer
+
+### Method Reference
+
+- Static Method Reference
+- Instance Method Reference
+- Constructor Reference
+
+### Stream API
+
+- Introduction to Stream API
+- Creating Streams
+- Stream Pipeline
+
+#### Intermediate Operations
+
+- filter()
+- map()
+- flatMap()
+- sorted()
+- distinct()
+- limit()
+- skip()
+
+#### Terminal Operations
+
+- collect()
+- forEach()
+- reduce()
+- count()
+- min()
+- max()
+
+### Optional Class
+
+- Introduction to Optional
+- Creating Optional Object
+- Null Handling using Optional
+- Optional Methods
+
+### Interface Enhancements
+
+- Default Methods
+- Static Methods in Interface
+
+### Date and Time API
+
+- LocalDate
+- LocalTime
+- LocalDateTime
+- DateTimeFormatter
+
+### Advanced Java 8 Topics
+
+- Parallel Streams
+- CompletableFuture Basics
+
+---
+
 
 ## 📂 Folder Structure
 ```
@@ -157,41 +265,47 @@ core-java-practice/
 │   ├── packages.md
 │   └── multithreading.md
 │
-├── IX-what-i-learned/
-│   ├── introduction.md
-│   ├── java-basics.md
-│   ├── control-flow.md
-│   ├── oop.md
-│   ├── advanced-oop.md
-│   ├── exception-handling.md
-│   ├── string-handling.md
-│   └── interview-topics.md
-│
-└── X-summary/
-    ├── repo-summary.md
-    └── learning-outcomes.md
+├── IX-java-8-features/
+│   ├── introduction-java8.md
+│   ├── lambda-expression.md
+│   ├── functional-interface.md
+│   ├── method-reference.md
+│   ├── stream-api.md
+│   ├── optional-class.md
+│   ├── date-time-api.md
+│   └── completable-future.md
 
 ```
 
-## Summary 💖👌
+## Summary 
 
-# Core Java Practice – Summary
+# Core Java Notes & Practice – Summary
 
-This repository contains a complete set of practice programs and a short proof of my knowledge in java programming. 
+This repository contains structured notes and learning documentation for Core Java concepts, Object-Oriented Programming, Exception Handling, Collections, Multithreading, and Java 8 features.
 
+The main goal of this repository is to build a strong foundation in Java programming and maintain a complete revision resource for technical interviews and Java backend development.
+
+---
 
 # Main Learing 
 
-1. Strong understanding of Java fundamentals.
-2. Practical implementation of OOP and Advanced OOP concepts.
-3. Exception handling, String handling, and file operations.
-4. Interview-focused topics like Collections and Multithreading.
-5. Structured approach to learning and documenting code.
+
+1. Strong understanding of Java fundamentals and programming concepts.
+2. Practical knowledge of Object-Oriented Programming and advanced OOP principles.
+3. Understanding of Exception Handling, String Handling, File Handling, and Collections Framework.
+4. Knowledge of Java 8 features including Lambda Expressions, Functional Interfaces, and Stream API.
+5. Better understanding of Java execution process, memory concepts, and JVM basics.
+6. Structured approach towards learning, documenting, and revising Java concepts.
+
+---
 
 ## Learning Outcomes
-1. Ability to write clean Java code.
-2. Understanding of how different Java concepts work together.
-3. Prepared for technical interviews and practical coding tasks.
-4. Ready for open-source contributions and collaborative projects.
+1. Ability to write clean and maintainable Java code.
+2. Clear understanding of how different Java concepts work together.
+3. Better preparation for Java Developer technical interviews.
+4. Improved problem-solving and programming logic.
+5. Strong foundation for learning Java Backend technologies like Spring Boot.
+6. Ready to contribute to open-source projects and collaborative development.
+
 
 
