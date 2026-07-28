@@ -109,7 +109,7 @@ As long as the required reader (JVM) is available, the file can run anywhere.
 
 ## Platform Independence vs Platform Dependent
 
-```
+
 | Java (Platform Independent) | C/C++ (Platform Dependent) |
 |-----------------------------|----------------------------|
 | Compiles to Bytecode | Compiles to Machine Code |
@@ -117,7 +117,7 @@ As long as the required reader (JVM) is available, the file can run anywhere.
 | Runs on multiple operating systems | Separate compilation for each OS |
 | High Portability | Low Portability |
 
-```
+
 
 ---
 
