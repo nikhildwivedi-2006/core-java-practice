@@ -1,0 +1,10 @@
+/**
+ * o1HelloWorld
+ */
+public class o1HelloWorld {
+
+    public static void main(String[] args) {
+
+        System.out.println("Hello World");
+    }
+}

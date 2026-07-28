@@ -1,0 +1,207 @@
+# JDK, JRE and JVM
+
+## Introduction
+
+JDK, JRE, and JVM are the three core components of Java. They work together to develop, compile, and execute Java programs.
+
+- **JDK (Java Development Kit)** is used to develop Java applications.
+- **JRE (Java Runtime Environment)** provides the environment to run Java applications.
+- **JVM (Java Virtual Machine)** executes Java bytecode.
+
+---
+
+# What is JDK?
+
+**JDK (Java Development Kit)** is a software package that provides all the tools required to develop, compile, debug, and run Java programs.
+
+It is mainly used by Java developers.
+
+### JDK Contains
+
+- JRE
+- Java Compiler (javac)
+- Debugger
+- Java Documentation Tool (javadoc)
+- Jar Tool
+- Development Utilities
+
+### Advantages
+
+- Used for Java Development
+- Contains Compiler
+- Includes JRE
+- Provides Development Tools
+
+---
+
+# What is JRE?
+
+**JRE (Java Runtime Environment)** provides the environment required to execute Java applications.
+
+It does **not** contain the Java compiler.
+
+If you only want to run Java applications, installing the JRE is sufficient.
+
+### JRE Contains
+
+- JVM
+- Java Class Libraries
+- Supporting Files
+
+### Advantages
+
+- Executes Java Applications
+- Provides Runtime Environment
+- Includes JVM
+
+---
+
+# What is JVM?
+
+**JVM (Java Virtual Machine)** is a virtual machine that executes Java Bytecode.
+
+It converts Bytecode into Machine Code so that the operating system can understand and execute the program.
+
+Every operating system has its own JVM implementation.
+
+For example:
+
+- Windows → Windows JVM
+- Linux → Linux JVM
+- macOS → macOS JVM
+
+---
+
+# Relationship Between JDK, JRE, and JVM
+
+```text
+JDK
+│
+├── JRE
+│     │
+│     ├── JVM
+│     ├── Java Libraries
+│     └── Runtime Files
+│
+├── Compiler (javac)
+├── Debugger
+├── Jar Tool
+└── Development Tools
+```
+
+---
+
+# Program Execution Process
+
+```text
+Hello.java
+      │
+      ▼
+ javac Hello.java
+      │
+      ▼
+ Hello.class (Bytecode)
+      │
+      ▼
+      JVM
+      │
+      ▼
+ Machine Code
+      │
+      ▼
+ Operating System
+```
+
+---
+
+# Difference Between JDK, JRE, and JVM
+
+```
+| Feature | JDK | JRE | JVM |
+|---------|-----|-----|-----|
+| Full Form | Java Development Kit | Java Runtime Environment | Java Virtual Machine |
+| Purpose | Develop Java Programs | Run Java Programs | Execute Bytecode |
+| Compiler Included | ✅ Yes | ❌ No | ❌ No |
+| JVM Included | ✅ Yes | ✅ Yes | Itself |
+| Java Libraries | ✅ Yes | ✅ Yes | Uses Libraries |
+| Used By | Developers | End Users | Runtime |
+
+```
+
+---
+
+# Real-Life Analogy
+
+Imagine you want to drive a car.
+
+- **JDK** → Car Factory (Builds the car)
+- **JRE** → Complete Car
+- **JVM** → Engine of the car
+
+Without the engine (JVM), the car cannot move.
+
+Without the car (JRE), you cannot drive.
+
+Without the factory (JDK), the car cannot be built.
+
+---
+
+# Key Points
+
+- JDK is used to develop Java applications.
+- JDK contains JRE.
+- JRE contains JVM.
+- JVM executes Bytecode.
+- JDK includes Compiler (javac).
+- JRE does not include the compiler.
+- JVM converts Bytecode into Machine Code.
+
+---
+
+# Frequently Asked Interview Questions
+
+### 1. What is JDK?
+
+**Answer:** JDK (Java Development Kit) is used to develop Java applications. It contains JRE, the Java compiler, debugger, and other development tools.
+
+---
+
+### 2. What is JRE?
+
+**Answer:** JRE (Java Runtime Environment) provides the environment required to execute Java programs. It contains the JVM and Java libraries.
+
+---
+
+### 3. What is JVM?
+
+**Answer:** JVM (Java Virtual Machine) is responsible for executing Java bytecode by converting it into machine code.
+
+---
+
+### 4. Does JRE contain the Java Compiler?
+
+**Answer:** No. The Java compiler (`javac`) is available only in the JDK.
+
+---
+
+### 5. Can we run a Java program without JRE?
+
+**Answer:** No. A Java program requires the JRE because it provides the runtime environment needed to execute the program.
+
+---
+
+### 6. Which component converts Bytecode into Machine Code?
+
+**Answer:** JVM converts Bytecode into Machine Code.
+
+---
+
+### 7. What is included in JDK?
+
+**Answer:** JDK includes JRE, JVM, Java Compiler (`javac`), Debugger, Javadoc, Jar Tool, and other development utilities.
+
+---
+
+# Summary
+
+JDK, JRE, and JVM are the foundation of Java programming. The **JDK** is used to develop Java applications, the **JRE** provides the runtime environment to execute them, and the **JVM** converts Java bytecode into machine code. Their combined architecture enables Java's famous **"Write Once, Run Anywhere (WORA)"** capability.
