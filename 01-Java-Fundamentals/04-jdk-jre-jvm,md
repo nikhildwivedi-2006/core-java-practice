@@ -116,17 +116,14 @@ Hello.java
 
 # Difference Between JDK, JRE, and JVM
 
-```
-| Feature | JDK | JRE | JVM |
-|---------|-----|-----|-----|
-| Full Form | Java Development Kit | Java Runtime Environment | Java Virtual Machine |
-| Purpose | Develop Java Programs | Run Java Programs | Execute Bytecode |
-| Compiler Included | ✅ Yes | ❌ No | ❌ No |
-| JVM Included | ✅ Yes | ✅ Yes | Itself |
-| Java Libraries | ✅ Yes | ✅ Yes | Uses Libraries |
-| Used By | Developers | End Users | Runtime |
-
-```
+| Feature           | JDK                   | JRE                      | JVM                  |
+| ----------------- | --------------------- | ------------------------ | -------------------- |
+| Full Form         | Java Development Kit  | Java Runtime Environment | Java Virtual Machine |
+| Purpose           | Develop Java Programs | Run Java Programs        | Execute Bytecode     |
+| Compiler Included | ✅ Yes                | ❌ No                    | ❌ No                |
+| JVM Included      | ✅ Yes                | ✅ Yes                   | Itself               |
+| Java Libraries    | ✅ Yes                | ✅ Yes                   | Uses Libraries       |
+| Used By           | Developers            | End Users                | Runtime              |
 
 ---
 
