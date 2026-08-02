@@ -1,0 +1,19 @@
+public class TypeCastingExample {
+
+    public static void main(String[] args) {
+
+        double price = 99.99;
+        int amount = (int) price;
+
+        float marks = 95.75f;
+        int totalMarks = (int) marks;
+
+        System.out.println("Price      : " + price);
+        System.out.println("Amount     : " + amount);
+
+        System.out.println();
+
+        System.out.println("Marks      : " + marks);
+        System.out.println("TotalMarks : " + totalMarks);
+    }
+}
