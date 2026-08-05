@@ -1,0 +1,27 @@
+public class o8EnhancedForLoopEx {
+
+    public static void main(String[] args) {
+
+        // Integer Array
+        int[] numbers = {10, 20, 30, 40, 50};
+
+        System.out.println("Numbers:");
+
+        for (int number : numbers) {
+            System.out.println(number);
+        }
+
+        System.out.println();
+
+        // String Array
+        String[] names = {"Nikhil", "Rahul", "Aman"};
+
+        System.out.println("Names:");
+
+        for (String name : names) {
+            System.out.println(name);
+        }
+
+    }
+
+}
