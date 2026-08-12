@@ -1,4 +1,4 @@
-public class o1TypeConversionExample {
+public class o3TypeConversionExample {
 
     public static void main(String[] args) {
 

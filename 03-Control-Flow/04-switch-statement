@@ -1,0 +1,322 @@
+# Switch Statement in Java
+
+## Introduction
+
+The `switch` statement is a decision-making statement used to execute one block of code from multiple available options.
+
+It is generally used as an alternative to multiple `if-else-if` statements when checking the value of a single expression.
+
+---
+
+# Why Do We Need the Switch Statement?
+
+When there are multiple possible choices for the same variable, writing many `if-else` statements can make the code lengthy and difficult to read.
+
+The `switch` statement provides a cleaner and more organized way to handle multiple conditions.
+
+Examples:
+
+- Display the day of the week.
+- Perform menu-driven programs.
+- Execute different operations based on user choice.
+- Build calculator applications.
+
+---
+
+# Syntax
+
+```java
+switch (expression) {
+
+    case value1:
+        // Code
+        break;
+
+    case value2:
+        // Code
+        break;
+
+    case value3:
+        // Code
+        break;
+
+    default:
+        // Code
+}
+```
+
+---
+
+# Flow of Execution
+
+```text
+          Expression
+               │
+      ┌────────┼────────┐
+      │        │        │
+   Case 1   Case 2   Case 3
+      │        │        │
+      └────────┼────────┘
+               │
+           Default
+               │
+        Next Statement
+```
+
+---
+
+# Example 1
+
+```java
+public class SwitchExample {
+
+    public static void main(String[] args) {
+
+        int day = 3;
+
+        switch (day) {
+
+            case 1:
+                System.out.println("Monday");
+                break;
+
+            case 2:
+                System.out.println("Tuesday");
+                break;
+
+            case 3:
+                System.out.println("Wednesday");
+                break;
+
+            default:
+                System.out.println("Invalid Day");
+
+        }
+
+    }
+
+}
+```
+
+### Output
+
+```text
+Wednesday
+```
+
+---
+
+# Example 2
+
+```java
+public class SwitchExample {
+
+    public static void main(String[] args) {
+
+        char grade = 'A';
+
+        switch (grade) {
+
+            case 'A':
+                System.out.println("Excellent");
+                break;
+
+            case 'B':
+                System.out.println("Very Good");
+                break;
+
+            case 'C':
+                System.out.println("Good");
+                break;
+
+            default:
+                System.out.println("Invalid Grade");
+
+        }
+
+    }
+
+}
+```
+
+### Output
+
+```text
+Excellent
+```
+
+---
+
+# The break Statement
+
+The `break` statement is used to terminate the current case and exit the switch block.
+
+Without `break`, Java continues executing the next cases. This is known as **fall-through**.
+
+Example:
+
+```java
+int number = 1;
+
+switch (number) {
+
+    case 1:
+        System.out.println("One");
+
+    case 2:
+        System.out.println("Two");
+
+}
+```
+
+### Output
+
+```text
+One
+Two
+```
+
+---
+
+# The default Statement
+
+The `default` block executes when none of the cases match the given expression.
+
+Example:
+
+```java
+int number = 10;
+
+switch (number) {
+
+    case 1:
+        System.out.println("One");
+        break;
+
+    default:
+        System.out.println("Invalid Number");
+
+}
+```
+
+### Output
+
+```text
+Invalid Number
+```
+
+---
+
+# Supported Data Types
+
+The `switch` statement supports:
+
+- byte
+- short
+- int
+- char
+- String
+- enum
+
+---
+
+# Advantages
+
+- Cleaner than long `if-else-if` chains.
+- Easy to read and maintain.
+- Useful for menu-driven programs.
+- Improves code organization.
+
+---
+
+# Common Mistakes
+
+### Missing `break`
+
+```java
+case 1:
+    System.out.println("One");
+
+case 2:
+    System.out.println("Two");
+```
+
+This causes **fall-through**.
+
+---
+
+### Duplicate Case Values
+
+```java
+case 1:
+case 1:
+```
+
+❌ Duplicate case labels are not allowed.
+
+---
+
+# Enhanced Switch (Java 14+)
+
+Java introduced an enhanced switch syntax using the `->` operator.
+
+Example:
+
+```java
+int day = 2;
+
+switch (day) {
+    case 1 -> System.out.println("Monday");
+    case 2 -> System.out.println("Tuesday");
+    default -> System.out.println("Invalid Day");
+}
+```
+
+This syntax is shorter and does not require `break`.
+
+---
+
+# Interview Questions
+
+### 1. What is a switch statement?
+
+**Answer:** It is a decision-making statement used to execute one block of code from multiple choices.
+
+---
+
+### 2. Why is the `break` statement used?
+
+**Answer:** It terminates the current case and prevents fall-through.
+
+---
+
+### 3. What happens if `break` is omitted?
+
+**Answer:** Java executes the next case(s) until it encounters a `break` or reaches the end of the switch block.
+
+---
+
+### 4. What is the purpose of the `default` case?
+
+**Answer:** It executes when none of the case values match the expression.
+
+---
+
+### 5. Which data types are supported by the switch statement?
+
+**Answer:** `byte`, `short`, `int`, `char`, `String`, and `enum`.
+
+---
+
+# Summary
+
+The `switch` statement is used to execute one block of code from multiple options based on the value of an expression. It provides a cleaner alternative to long `if-else-if` statements and is commonly used in menu-driven applications.
+
+---
+
+## Related Topics
+
+- If Statement
+- If-Else Statement
+- Nested If
+- Loops
